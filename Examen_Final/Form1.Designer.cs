@@ -98,7 +98,7 @@
             // lblPila
             // 
             lblPila.AutoSize = true;
-            lblPila.Location = new Point(92, 231);
+            lblPila.Location = new Point(77, 198);
             lblPila.Name = "lblPila";
             lblPila.Size = new Size(38, 15);
             lblPila.TabIndex = 6;
@@ -107,7 +107,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(76, 103);
+            label3.Location = new Point(84, 103);
             label3.Name = "label3";
             label3.Size = new Size(31, 15);
             label3.TabIndex = 5;
@@ -154,7 +154,7 @@
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(180, 51);
+            btnAgregar.Location = new Point(172, 63);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(97, 49);
             btnAgregar.TabIndex = 1;
@@ -164,9 +164,9 @@
             // 
             // btnMostrarPila
             // 
-            btnMostrarPila.Location = new Point(26, 150);
+            btnMostrarPila.Location = new Point(53, 150);
             btnMostrarPila.Name = "btnMostrarPila";
-            btnMostrarPila.Size = new Size(174, 69);
+            btnMostrarPila.Size = new Size(100, 45);
             btnMostrarPila.TabIndex = 0;
             btnMostrarPila.Text = "Mostrar Pila";
             btnMostrarPila.UseVisualStyleBackColor = true;
@@ -250,7 +250,7 @@
             // 
             // btnIngresarRect
             // 
-            btnIngresarRect.Location = new Point(170, 60);
+            btnIngresarRect.Location = new Point(149, 71);
             btnIngresarRect.Name = "btnIngresarRect";
             btnIngresarRect.Size = new Size(97, 49);
             btnIngresarRect.TabIndex = 7;
@@ -260,9 +260,9 @@
             // 
             // btnMostrarPilaRect
             // 
-            btnMostrarPilaRect.Location = new Point(16, 159);
+            btnMostrarPilaRect.Location = new Point(43, 159);
             btnMostrarPilaRect.Name = "btnMostrarPilaRect";
-            btnMostrarPilaRect.Size = new Size(174, 69);
+            btnMostrarPilaRect.Size = new Size(100, 49);
             btnMostrarPilaRect.TabIndex = 6;
             btnMostrarPilaRect.Text = "Mostrar Pila";
             btnMostrarPilaRect.UseVisualStyleBackColor = true;
@@ -290,7 +290,7 @@
             // lblPilaParal
             // 
             lblPilaParal.AutoSize = true;
-            lblPilaParal.Location = new Point(77, 230);
+            lblPilaParal.Location = new Point(89, 211);
             lblPilaParal.Name = "lblPilaParal";
             lblPilaParal.Size = new Size(38, 15);
             lblPilaParal.TabIndex = 23;
@@ -356,9 +356,9 @@
             // 
             // btnMostrarPilaParal
             // 
-            btnMostrarPilaParal.Location = new Point(26, 158);
+            btnMostrarPilaParal.Location = new Point(53, 158);
             btnMostrarPilaParal.Name = "btnMostrarPilaParal";
-            btnMostrarPilaParal.Size = new Size(174, 69);
+            btnMostrarPilaParal.Size = new Size(100, 50);
             btnMostrarPilaParal.TabIndex = 15;
             btnMostrarPilaParal.Text = "Mostrar Pila";
             btnMostrarPilaParal.UseVisualStyleBackColor = true;
