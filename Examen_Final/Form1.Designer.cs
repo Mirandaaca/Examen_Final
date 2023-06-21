@@ -100,9 +100,9 @@
             lblPila.AutoSize = true;
             lblPila.Location = new Point(77, 198);
             lblPila.Name = "lblPila";
-            lblPila.Size = new Size(38, 15);
+            lblPila.Size = new Size(51, 15);
             lblPila.TabIndex = 6;
-            lblPila.Text = "label4";
+            lblPila.Text = "labelPila";
             // 
             // label3
             // 
@@ -196,9 +196,9 @@
             lblPilaRect.AutoSize = true;
             lblPilaRect.Location = new Point(67, 231);
             lblPilaRect.Name = "lblPilaRect";
-            lblPilaRect.Size = new Size(38, 15);
+            lblPilaRect.Size = new Size(51, 15);
             lblPilaRect.TabIndex = 15;
-            lblPilaRect.Text = "label4";
+            lblPilaRect.Text = "labelPila";
             // 
             // txtNombreRect
             // 

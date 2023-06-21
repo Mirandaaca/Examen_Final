@@ -29,9 +29,9 @@ namespace Examen_Final
 
         private void btnIngresarRect_Click(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Text;
-            double basePoligono = Convert.ToDouble(txtBase.Text);
-            double alturaPoligono = Convert.ToDouble(txtAltura.Text);
+            string nombre = txtNombreRect.Text;
+            double basePoligono = Convert.ToDouble(txtBaseRect.Text);
+            double alturaPoligono = Convert.ToDouble(txtAlturaRect.Text);
             Poligono poligono = new Rectangulo(nombre, basePoligono, alturaPoligono); ;
             pilaPoligonos.Push(poligono);
         }
@@ -41,15 +41,15 @@ namespace Examen_Final
             lblPilaRect.Text = "";
             foreach (Poligono poligono in pilaPoligonos)
             {
-                lblPila.Text += poligono.ToString() + "\n";
+                lblPilaRect.Text += poligono.ToString() + "\n";
             }
         }
 
         private void btnIngresarParal_Click(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Text;
-            double basePoligono = Convert.ToDouble(txtBase.Text);
-            double alturaPoligono = Convert.ToDouble(txtAltura.Text);
+            string nombre = txtNombreParal.Text;
+            double basePoligono = Convert.ToDouble(txtBaseParal.Text);
+            double alturaPoligono = Convert.ToDouble(txtAlturaParal.Text);
             Poligono poligono = new Paralelogramo(nombre, basePoligono, alturaPoligono); ;
             pilaPoligonos.Push(poligono);
         }
@@ -59,7 +59,7 @@ namespace Examen_Final
             lblPilaParal.Text = "";
             foreach (Poligono poligono in pilaPoligonos)
             {
-                lblPila.Text += poligono.ToString() + "\n";
+                lblPilaParal.Text += poligono.ToString() + "\n";
             }
         }
     }
